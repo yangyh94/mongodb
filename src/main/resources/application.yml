@@ -1,0 +1,20 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: mongodb-demo
+
+  data:
+    mongodb:
+      host: 118.24.97.112
+      port: 27017
+      database: mydb
+  # 全局配置日期格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
+
+
