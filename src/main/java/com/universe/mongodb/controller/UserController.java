@@ -54,6 +54,7 @@ public class UserController {
     }
     @GetMapping("findLikePhone")
     public List<User> findUserLikePhone(@RequestParam String phone) {
+
        return userRepository.findUserByPhoneLike(phone);
     }
 
